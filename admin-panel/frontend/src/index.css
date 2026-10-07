@@ -1,0 +1,40 @@
+/* Custom overrides for Bootstrap */
+body {
+  background-color: #f8f9fa;
+}
+
+.sidebar {
+  min-height: 100vh;
+  background-color: #343a40;
+  color: white;
+}
+
+.sidebar a {
+  color: #adb5bd;
+  text-decoration: none;
+}
+
+.sidebar a:hover, .sidebar a.active {
+  color: white;
+  background-color: #495057;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1050;
+}
+
+.modal-content {
+  width: 550px;
+  max-width: 95vw;
+  max-height: 90vh;
+  overflow-y: auto;
+  background-color: #ffffff !important;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+}
